@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+
+
+<body>
+    
+    <h1>Bienvenidos</h1>
+    <img src="./assets/img/logo.png" alt="logo pasteleria" width="300px">
+
+    <p></p>
+
+    <h2>Menú de Pasteles:</h2>
+    <p>Pastel de 3 Leches.......................... $370.00</p>
+    <p>Pastel de Chocolate........................ $370.00</p>
+    <p>Pastel de Fresa............................... $395.00</p>
+    <p>Pastel de Cajeta.............................. $405.00</p>
+    <p>Pastel de Berries............................ $475.00</p>
+    <p>Cheesecake..................................... $420.00</p>
+    <p>Pastel de Coco................................ $440.00</p>
+    <p>Pastel de Milkyway......................... $405.00</p>
+    <p>Pastel de Oreo................................ $435.00</p>
+    <p>Pastel de Red velvet........................ $405.00</p>
+    <br><br>
+
+
+    <h2>Toppings:</h2>
+    <p>Maracuya..........................$20.00</p>
+    <p>Fresas................................$20.00</p>
+    <p>Moras................................$20.00</p>
+    <p>Chispas de chocolate........$18.00</p>
+    <p>Grageas.............................$18.00</p>
+    <p>Nueces..............................$15.00</p>
+    <p>Almendras........................$15.00</p>
+    <p>Gomitas............................$15.00</p>
+    <br><br>
+
+    <hr>
+
+    <h1>Aqui se realiza tu pedido</h1>
+
+    <h2>Comencemos con:</h2>
+    <br>
+
+    <form action="pedido.js">
+        <label for="Nomnbre">Tu Nombre</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <br><br>
+
+        <label for="direccion">Tu Dirección</label><br>
+        <input type="text" name="direccion" id="direccion" placeholder="Dirección">
+        <br><br>
+
+        <label for="telefono">Tu Número de Telefono</label><br>
+        <input type="number" name="telefono" id="telefono" placeholder="##########">
+        <br><br>
+
+        <label for="mail">Dejanos tu E-mail</label><br>
+        <input type="email" name="mail" id="mail" placeholder="ejempli@algo.com">
+        <br><br>
+
+        <h2>Selecciona los sabores de tu pastel:</h2>
+
+        <table>
+            <tr>
+                <th>
+                    <input type="checkbox" id="pastel1" name="pastel1" value="3leches">
+                    <label for="pastel1">3 Leches</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="pastel2" name="pastel2" value="chocolate">
+                    <label for="pastel2">Chocolate</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="pastel3" name="pastel3" value="fresa">
+                    <label for="pastel3">Fresa</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" id="pastel4" name="pastel4" value="cajeta">
+                    <label for="pastel4">Cajeta</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="pastel5" name="pastel5" value="berries">
+                    <label for="pastel5">Berries</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="pastel6" name="pastel6" value="cheesecake">
+                    <label for="pastel6">cheesecake</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" id="pastel7" name="pastel7" value="coco">
+                    <label for="pastel7">Coco</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="pastel8" name="pastel8" value="milkyway">
+                    <label for="pastel8">Milkyway</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="pastel9" name="pastel9" value="coreo">
+                    <label for="pastel9">Oreo</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" id="pastel10" name="pastel10" value="redvelvet">
+                    <label for="pastel7">Red Velvet</label>
+            </th>
+        </table>
+
+        <h2>Selecciona los Toppings para tu pastel:</h2>
+
+        <table>
+            <tr>
+                <th>
+                    <input type="checkbox" id="toppings1" name="toppings1" value="maracuya">
+                    <label for="toppings1">Maracuya</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="toppings2" name="toppings2" value="fresas">
+                    <label for="toppings2">Fresas</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="toppings3" name="toppings3" value="moras">
+                    <label for="toppings3">Moras</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" id="toppings4" name="toppings4" value="chispaschocolate">
+                    <label for="toppings4">Chispas de chocolate</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="toppings5" name="toppings5" value="grageas">
+                    <label for="toppings5">Grageas</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="toppings6" name="toppings6" value="nueces">
+                    <label for="toppings6">Nueces</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" id="toppings7" name="toppings7" value="almendras">
+                    <label for="toppings7">Almendras</label>
+                </th>
+                <th>
+                    <input type="checkbox" id="toppings8" name="toppings8" value="gomitas">
+                    <label for="toppings8">Gomitas</label>
+                </th>
+            </tr>
+        </table>
